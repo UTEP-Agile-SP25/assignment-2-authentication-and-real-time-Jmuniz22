@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs Collection</title>
+</head>
+<body>
+    <h1>Songs Collection</h1>
+
+    <!-- Form to add a song -->
+    <h3>Add a Song</h3>
+    <form id="addSongForm">
+        <input type="text" id="songTitle" placeholder="Enter song title" required>
+        <input type="text" id="songArtist" placeholder="Enter artist name" required>
+        <input type="submit" value="Add Song">
+    </form>
+
+    <h3>Song List</h3>
+    <ul id="songsList">
+        <!-- Songs will be dynamically added here -->
+    </ul>
+
+    <script src="index.bundle.js"></script> <!-- Assuming you bundle JS using Webpack/Babel -->
+</body>
+</html>
